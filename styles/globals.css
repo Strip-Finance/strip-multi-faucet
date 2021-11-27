@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Monda:wght@400;700&display=swap');
+.gradient-button {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(265.59deg, #00f5a0 -19.36%, #00d9f5 106.57%);
+    border-radius: 4px;
+    font-size: 18px;
+  }
