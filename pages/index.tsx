@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 
 import { cardStyle } from '../styles/index.ts';
 
@@ -35,11 +36,13 @@ const Home: NextPage = () => {
             <img src="/background/bg-crystal-3.png" alt="" />
           </div>
           <div className="relative container mx-auto flex flex-col px-5 py-24 justify-center items-center">
-            <img
-              className="w-2/12  mb-10 object-cover object-center rounded"
-              alt="hero"
-              src="/img/logo.png"
-            />
+            <Link href="https://strip.finance/">
+              <img
+                className="w-2/12  mb-10 object-cover object-center rounded"
+                alt="hero"
+                src="/img/logo.png"
+              />
+            </Link>
             <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold">
                 Multi Faucet For Testnet
